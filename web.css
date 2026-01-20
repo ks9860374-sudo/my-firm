@@ -68,6 +68,8 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; }
       display:flex;
       flex-direction:column;
       gap: 4px;
+      align-items:center;
+      text-align:center;
   }
 .addresss-card{
       display:flex;
@@ -88,6 +90,7 @@ header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
 
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
+
 
 
 
