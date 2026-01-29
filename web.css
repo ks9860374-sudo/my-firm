@@ -42,6 +42,7 @@ body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; }
   .card {
       display:flex;
       flex-wrap:wrap;
+      grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content:center;
     /* This rotates the entire grid in 3D space */
@@ -90,6 +91,7 @@ header { padding: 100px 50px; text-align: center; background: #f4f7f6; }
 .card { padding: 30px; border: 1px solid #ddd; border-radius: 8px; width: 25%; text-align: center; transition: 0.3s; }
 
 .card:hover { transform: translateY(-10px); border-color: #007bff; }
+
 
 
 
